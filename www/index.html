@@ -1,19 +1,87 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой первый проект</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    <div class="promo">
-        <div class="promo-inner">
-            <h1 class="promo-ttl">Заголовок сайта</h1>
-            <p class="promo-slogan">Описание сайта, типа тут все самое офиггенное и опупенное!</p>
+    <header class="inner">
+        <div class="header-inner">
+            <div class="header-wrap">
+                <a href="#" class="header-logo"></a>
+                <nav class="menu">
+                    <ul>
+                        <ll><a href="#">Каталог</a></ll>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </div>
+    </header>
+
+    <main>
+        <section class="promo">
+            <div class="promo-inner">
+                <h1 class="promo-slogan">Индивидуальный пошив галсутков-бабочек</h1>
+                <button class="btn promo-btn"><a href="#">Заказать бабочку</a></button>
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="catalog-inner">
+                <h2 class="catalog-ttl">Наши работы</h2>
+                <ul class="catalog-list">
+                    <li class="calalog-item">
+                        <i class="catalog-item-pic" style="background-image: url();"></i>
+                        <strong class="catalog-item-desc">Бабочка такая</strong>
+                    </li>
+                    <li class="calalog-item">
+                        <i class="catalog-item-pic" style="background-image: url();"></i>
+                        <strong class="catalog-item-desc">Бабочка растакая</strong>
+                    </li>
+                    <li class="calalog-item">
+                        <i class="catalog-item-pic" style="background-image: url();"></i>
+                        <strong class="catalog-item-desc">Бабочка сякая</strong>
+                    </li>
+                    <li class="calalog-item">
+                        <i class="catalog-item-pic" style="background-image: url();"></i>
+                        <strong class="catalog-item-desc">Кривая</strong>
+                    </li>
+                </ul>
+                <button class="btn catalog-btn"><a href="#">Все бабочки</a></button>
+            </div>
+        </section>
+
+        <section class="order">
+            <h2 class="order-title">Закажи пошив</h2>
+            <p class="order-text">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи. На
+                встрече он снимет мерки и поможет обределиться с тканью.</p>
+            <form action="#" class="form">
+                <div class="form-field">
+                    <label for="name" class="form-label">Ваше имя</label>
+                    <input id="name" name="name" type="text" class="form-input">
+                </div>
+                <div class="form-field">
+                    <label for="phone" class="form-label">Телефон</label>
+                    <input id="phone" name="phone" type="tel" class="form-input">
+                </div>
+            </form>
+            <button class="btn order-btn"><a href="#">Заказать</a></button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        
+    </footer>
+
 
     <script src="scripts/script.js"></script>
 </body>
+
 </html>
