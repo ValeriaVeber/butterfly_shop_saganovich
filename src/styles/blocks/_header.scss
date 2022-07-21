@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: $color-dark;
+  color: #fff;
+}
+
+.header-inner {
+  @include inner;
+}
+
+.desctop-logo {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,3 +1,18 @@
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  // padding-top: 98px; // компенсация высоты фиксированной шапки:
   font-family: $font;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
