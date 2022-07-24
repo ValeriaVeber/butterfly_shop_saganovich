@@ -4,19 +4,52 @@
   left: 0;
   z-index: 1000;
   width: 100%;
+  color: $color-white;
   background-color: $color-dark;
-  color: #fff;
 }
 
 .header-inner {
   @include inner;
 }
 
+.header-wrap {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+}
+
 .desctop-logo {
+  padding: 17px 0;
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 42px;
   line-height: 57px;
-  color: #fff;
+  color: $color-white;
   text-decoration: none;
 }
+
+.menu-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  font-style: $font-open;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.header-nav {
+  display: block;
+  padding: 33px 25px;
+  list-style-type: none;
+}
+
+.nav-accent {
+  background-color: $color-accent;
+}
+
+a {
+    text-decoration: none;
+}
+
+// a:hover {text-decoration: underline;
+// }

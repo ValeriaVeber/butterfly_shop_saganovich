@@ -1,5 +1,6 @@
 // Fonts
 $font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-open: 'Open Sans';
 
 $h1-fz-mobile: 20px;
 $h1-fz-tablet: 32px;
@@ -9,10 +10,14 @@ $h1-fw: 400;
 // colors
 $color-dark: #333333;
 $color-accent: #FF2D2D;
+$color-white: #fff;
 
 // indents
+$gap: 20px;
+$gap-half: $gap/2;
 
 // breakpoints
 $desktop: 1278px;
-$tablet: 748px;
-$mobile: 300px;
+$tablet: 768px;
+$mobile: 320px;
+

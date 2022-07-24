@@ -1,0 +1,26 @@
+.catalog-inner {
+  @include inner;
+}
+
+.catalog-ttl {
+  padding: 130px 0 97px;
+  font-family: $font-open;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+}
+
+.catalog-list {
+  margin-left: -$gap-half;
+  margin-right: -$gap-half;
+  // padding-bottom: 120px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: cover;
+  justify-content: center;
+}
+
+.catalog-pic {
+  padding: $gap-half;
+}
