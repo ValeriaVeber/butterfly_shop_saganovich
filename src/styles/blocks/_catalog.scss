@@ -14,12 +14,40 @@
 .catalog-list {
   margin-left: -$gap-half;
   margin-right: -$gap-half;
-  // padding-bottom: 120px;
   display: flex;
   flex-wrap: nowrap;
   width: cover;
   justify-content: center;
 }
+
+.catalog-item {
+  position: relative;
+  flex-basis: 25%;
+  flex-shrink: 0;
+}
+
+.catalog-item-link {
+  width: 25%;
+  padding-left: $gap-half;
+  // padding-right: $gap-half;
+}
+
+.catalog-item-desc {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 48px;
+  text-align: center;
+  font-family: $font-open;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: $color-white;
+  background-color: rgba($color-dark, .4);
+}
+
+
 
 .catalog-pic {
   padding: $gap-half;

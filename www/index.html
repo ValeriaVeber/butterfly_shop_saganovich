@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Мой первый проект</title>
+  <title>Butterfly Индивидуальный пошив бабочек</title>
   <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -15,7 +15,7 @@
         <a href="#" class="desctop-logo header-logo">Butterfly</a>
         <nav class="menu">
           <ul class="menu-wrap">
-            <li class="header-nav nav-accent"><a href="#" style="color:#fff">Каталог</a></li>
+            <li class="header-nav active"><a href="#" style="color:#fff">Каталог</a></li>
             <li class="header-nav"><a href="#" style="color:#fff">Отзывы</a></li>
             <li class="header-nav"><a href="#" style="color:#fff">Контакты</a></li>
             <li class="header-nav"><a href="#" style="color:#fff">FAQ</a></li>
@@ -39,23 +39,23 @@
       <div class="catalog-inner">
         <p class="catalog-ttl">Наши работы</p>
         <div class="catalog-list">
-          <div class="calalog-item">
-            <a href="" class="catalog-item-link"><img src="images/btf_in_box.jpg" alt="Галстук-бабочка в коробке"
+          <div class="catalog-item">
+            <a href="#" class="catalog-item-link"><img src="images/btf_in_box.jpg" alt="Галстук-бабочка в коробке"
                 class="catalog-pic" class="catalog-pic"></a>
-            <p class="catalog-item-desc">Бабочка такая</p>
+            <strong class="catalog-item-desc">Бабочка такая</strong>
           </div>
-          <div class="calalog-item">
-            <a href="" class="catalog-item-link"><img src="images/two-btfs.jpg" alt="Две галстук-бабочки"
+          <div class="catalog-item">
+            <a href="#" class="catalog-item-link"><img src="images/two-btfs.jpg" alt="Две галстук-бабочки"
                 class="catalog-pic"></a>
             <p class="catalog-item-desc">Бабочка растакая</p>
           </div>
-          <div class="calalog-item">
-            <a href="" class="catalog-item-link"><img src="images/man_with_btf.jpg" alt="Мужчина с галстуком-бабочкой"
+          <div class="catalog-item">
+            <a href="#" class="catalog-item-link"><img src="images/man_with_btf.jpg" alt="Мужчина с галстуком-бабочкой"
                 class="catalog-pic"></a>
             <p class="catalog-item-desc">Бабочка сякая</p>
           </div>
-          <div class="calalog-item">
-            <a href="" class="catalog-item-link"> <img src="images/cat-with-btf.jpg" alt="Кот в галстуке-бабочке"
+          <div class="catalog-item">
+            <a href="#" class="catalog-item-link"> <img src="images/cat-with-btf.jpg" alt="Кот в галстуке-бабочке"
                 class="catalog-pic"></a>
             <p class="catalog-item-desc">Кривая</p>
           </div>
@@ -69,17 +69,22 @@
         <h2 class="order-title">Закажи пошив</h2>
         <p class="order-text">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи. На
           встрече он снимет мерки и поможет обределиться с тканью.</p>
-        <form action="#" class="form">
-          <div class="form-field">
-            <label for="name" class="form-label">Ваше имя</label>
-            <input id="name" name="name" type="text" class="form-input">
+          <div class="form-wrap">
+            <form action="#" class="form">
+              <div class="form-field">
+                <label for="name" class="form-label">Ваше имя</label>
+                <input id="name" name="name" type="text" class="form-input">
+              </div>
+              <div class="form-field">
+                <label for="phone" class="form-label">Телефон</label>
+                <input id="phone" name="phone" type="number" count="10" class="form-input">
+              </div>
+            </form>
+            <div class="form-field form-btn">
+              <button class="btn order-btn"><a href="#" style="color:#fff">Заказать</a></button>
+            </div>
           </div>
-          <div class="form-field">
-            <label for="phone" class="form-label">Телефон</label>
-            <input id="phone" name="phone" type="tel" class="form-input">
-          </div>
-        </form>
-        <button class="btn order-btn"><a href="#" style="color:#fff">Заказать</a></button>
+
       </div>
     </section>
   </main>

@@ -1,5 +1,6 @@
 .promo-inner {
   @include inner;
+  position: center top;
 }
 
 
@@ -10,7 +11,7 @@
   background-image: url(/images/mister_niger.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
 }
 
 .promo-holder {
