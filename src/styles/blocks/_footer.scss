@@ -1,0 +1,61 @@
+.footer {
+  background-color: $color-dark;
+  width: 100%;
+
+}
+
+.footer-inner {
+  @include inner;
+  background-color: $color-dark;
+}
+
+
+.footer-logo {
+  display: block;
+  margin-right: 307px;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.footer-wrap-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: -$gap-half;
+}
+
+.footer-phone {
+  display: block;
+  font-family: $font-open;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color: $color-white;
+}
+
+.icon-list {
+  display: flex;
+  margin: 0;
+  padding-left: 60px;
+  list-style: none;
+  align-items: center;
+}
+
+// Как сделать выравнивание для иконок по центру по оси Y??
+
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: $color-white;
+  margin-right: 15px;
+}
+

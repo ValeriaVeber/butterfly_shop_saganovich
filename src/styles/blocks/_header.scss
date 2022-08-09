@@ -19,13 +19,7 @@
 }
 
 .desctop-logo {
-  padding: 17px 0;
-  font-family: 'Open Sans';
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 57px;
-  color: $color-white;
-  text-decoration: none;
+  @include logo;
 }
 
 .menu-wrap {

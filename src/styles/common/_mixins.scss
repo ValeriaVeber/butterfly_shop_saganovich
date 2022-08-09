@@ -1,6 +1,17 @@
-
 @mixin inner($width: 1278px) {
   max-width: $width;
   margin: 0 auto;
   border: 1px solid #f00;
+}
+
+
+@mixin logo ($width: 1278px) {
+  max-width: $width;
+  padding: 17px 0;
+  font-family: $font-open;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  color: $color-white;
+  text-decoration: none;
 }

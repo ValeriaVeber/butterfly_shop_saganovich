@@ -29,7 +29,6 @@
 .catalog-item-link {
   width: 25%;
   padding-left: $gap-half;
-  // padding-right: $gap-half;
 }
 
 .catalog-item-desc {
@@ -46,7 +45,7 @@
   color: $color-white;
   background-color: rgba($color-dark, .4);
 }
-
+// Как сделать затемнение в пределах catalog-item??
 
 
 .catalog-pic {
