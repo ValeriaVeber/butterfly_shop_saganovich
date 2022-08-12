@@ -1,6 +1,13 @@
 .promo-inner {
   @include inner;
   position: center top;
+
+  @media (max-width:$tablet-max) {
+    position: center;
+    background-size: cover;
+  }
+
+  @media (max-width: $mobile-max) {}
 }
 
 
@@ -12,10 +19,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+
+
+  @media (max-width: $tablet-max) {
+    background-position: 65%;
+    background-position: right;
 }
 
 .promo-holder {
   margin-top: 91px;
+  }
 }
 
 
@@ -25,6 +38,18 @@
   font-size: 72px;
   line-height: 98px;
   text-align: center;
+
+  @media (max-width: $tablet-max) {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
 }
 
 
